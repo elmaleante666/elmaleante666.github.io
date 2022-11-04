@@ -1,0 +1,114 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(rgb(5, 25, 37), rgb(105, 4, 21)) no-repeat;
+    width: 100%;
+}
+
+.logo-img {
+    height: 50px;
+}
+
+.header-head {
+    display: flex;
+    text-align: center;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    border-bottom: 4px solid black;
+}
+
+.header-head a {
+    text-decoration: none;
+}
+
+.title {
+    padding-left: 10px;
+    color: white;
+}
+
+.header .logo {
+    width: 50px;
+}
+
+.contenedor-cards {
+    margin-left: -420px;
+    display: flex;
+    width: 100%;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;  
+    align-content: center;
+}
+
+.contenedor-cards .card {
+    background: linear-gradient(rgb(5, 25, 37), rgb(105, 4, 21)) no-repeat;
+    color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    transition: all 0.3s ease;
+    box-shadow: -3px 0px 10px rgba(0, 0, 0, 0.89), -4px 0px 10px rgba(0, 0, 0, 0.89), -5px 0px 10px rgba(0, 0, 0, 0.89) ;
+}
+
+.contenedor-cards .card .header {
+    flex: 1;
+}
+
+.contenedor-cards .card .footer .cub {
+    width: 100px;
+    padding-top: 70px;
+} 
+
+.contenedor-cards .card .footer .cub3 {
+    width: 150px;
+    padding-top: 78px;
+}
+
+.contenedor-cards .card .footer .cub4 {
+    width: 120px;
+    padding-top: 5px;
+}
+
+.contenedor-cards .card:hover {
+    margin-right: 80px;
+    transform: rotate(3deg) translateY(-15px);
+}
+
+.contenedor-cards .card .footer img {
+    padding-left: 120px;
+}
+
+.contenedor-cards .card .header {
+    flex-direction: column;
+}
+
+.contenedor-cards .card .header .title {
+    text-align: center;
+    margin-right: 17px;
+    font-size: 20px;
+}
+
+.contenedor-cards .card .header .precio {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.contenedor-cards .card[class*="element"] {
+    margin-left: -90px;
+}

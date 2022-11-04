@@ -1,0 +1,183 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(rgb(5, 25, 37), rgb(105, 4, 21)) no-repeat;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.logo-img {
+    height: 50px;
+}
+
+
+.header {
+
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.header h2 {
+    color: white;
+}
+
+
+
+.title {
+    color: black;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -400px;
+    align-self: center;
+}
+
+.menu li {
+    list-style: none;
+    padding-left: -10px;
+}
+
+nav a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.header .nav a{
+    padding-top: 50px;
+}
+
+
+
+
+.menu .cont-menu-ternera {
+    background: linear-gradient(rgb(5, 25, 37), rgb(105, 4, 21)) no-repeat;
+    color: white;
+    border-radius: 10%;
+    width: 20%;
+    margin-left: 190px;
+    align-items: center;
+    position: relative;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.89), -4px 0px 10px rgba(0, 0, 0, 0.89), -3px 0px 10px rgba(0, 0, 0, 0.89) ;
+    transition: all 0.3s ease;
+}
+
+.menu .cont-menu-ternera .title-menu h3 {
+    font-size: 34px;
+    font-style: italic;
+}
+
+.menu .cont-menu-ternera .title-menu {
+    text-align: center;
+}
+
+
+.menu .cont-menu-ternera .foot-video {
+    text-align: center;
+}
+
+.menu .cont-menu-ternera:hover {
+    transform: translateY(-15px)
+}
+
+
+
+.menu .cont-menu-cerdo {
+    margin-left: -10px;
+    background: linear-gradient(rgb(5, 25, 37), rgb(105, 4, 21)) no-repeat;
+    color: white;
+    border-radius: 10%;
+    width: 20%;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.89), -4px 0px 10px rgba(0, 0, 0, 0.89), -3px 0px 10px rgba(0, 0, 0, 0.89) ;
+    transition: all 0.3s ease;
+
+}
+
+.menu .cont-menu-cerdo:hover {
+    transform: translateY(-15px)
+}
+
+
+
+.menu .cont-menu-cerdo .title-menu h3 {
+    font-size: 34px;
+    font-style: italic;
+}
+
+
+.menu .cont-menu-cerdo .title-menu {
+    text-align: center;
+}
+
+.menu .cont-menu-cerdo .foot-img {
+    text-align: center;
+}
+
+
+
+
+
+.menu .cont-menu-pollo {
+    background: linear-gradient(rgb(5, 25, 37), rgb(105, 4, 21)) no-repeat;
+    color: white;
+    border-radius: 10%;
+    width: 20%;
+    align-items: center;
+    padding-right: -30px;
+    margin-right: 50px;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.89), -4px 0px 10px rgba(0, 0, 0, 0.89), -3px 0px 10px rgba(0, 0, 0, 0.89) ;
+    transition: all 0.3s ease;
+}
+
+
+.menu .cont-menu-pollo:hover {
+    transform: translateY(-15px)
+}
+
+
+
+.menu .cont-menu-pollo .title-menu {
+    text-align: center;
+}
+
+.menu .cont-menu-pollo .foot-img {
+    text-align: center;
+}
+
+.menu .cont-menu-pollo .title-menu h3 {
+    font-size: 34px;
+    font-style: italic;
+}
+
+.head-ternera {
+    text-align: center;
+    font-size: 19px;
+}
+
+.head-cerdo {
+    text-align: center;
+    font-size: 19px;
+}
+
+.head-pollo {
+    text-align: center;
+    font-size: 19px;
+}

@@ -1,0 +1,82 @@
+* {
+    margin: 0 0;
+
+}
+.barra-tareas {
+    transition: transform 0.3s ease-in-out;
+}
+
+nav a:hover {
+    display: inline-block;
+    transform:translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 22px;
+    align-items: center;
+}
+
+@media (max-width:700px){
+    header {
+        flex-direction: column;
+    }
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+
+body {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(rgb(5, 25, 37), rgb(105, 4, 21)) no-repeat;
+    font-family: sans-serif;
+}
+
+
+p {
+    color: white;
+}
+
+img.joan {
+    border: 10px groove rgb(75, 5, 17);
+
+}
+
+p.u {
+    color: black;
+}
+
+.contenedor {
+    margin-top: 20px;
+}
+
+.mapa {
+    padding: 10px;
+    border: 10px groove rgb(75, 5, 17);
+    width: 21%;
+}

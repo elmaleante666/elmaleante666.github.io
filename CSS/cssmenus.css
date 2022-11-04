@@ -1,0 +1,96 @@
+
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(rgb(5, 25, 37), rgb(105, 4, 21)) no-repeat;
+    height: 920px;
+    width: 1890px;
+}
+
+.header-head {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 1920px;
+}
+.header .titulo {
+    color: white;
+}
+.header-head a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.logo-img {
+    height: 40px;   
+    padding: 10px;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;  
+    align-content: center;
+    margin-left: -80px;
+}
+
+.cards .card {
+    background: linear-gradient(rgb(5, 25, 37), rgb(105, 4, 21));
+    color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    transition: all 0.3s ease;
+    box-shadow: -3px 0px 10px rgba(0, 0, 0, 0.89), -4px 0px 10px rgba(0, 0, 0, 0.89), -5px 0px 10px rgba(0, 0, 0, 0.89) ;
+}
+
+.cards .card .header {
+    flex: 1;
+}
+
+.cards .card:hover {
+    margin-right: 80px;
+    transform: rotate(3deg) translateY(-15px);
+}
+
+.cards .card .header .title {
+    font-size: 28px;
+}
+
+.cards .card[class*="element"]{
+    margin-left: -100px;
+}
+
+.cards .card .footer img {
+    border-radius: 10%;
+}
+
+.cards .card .footer {
+    text-align: center;
+}
+
+.cards .card .footer .card-footer-imagen2 {
+    margin-left: -70px;
+}
+
+.cards .card .header .title {
+    font-weight: bold;
+}
+
+.cards .card .footer .card-footer-imagen3 {
+    margin-left: -70px;
+}
+
+.cards .card .footer .card-footer-imagen1 {
+    margin-left: -70px;
+}

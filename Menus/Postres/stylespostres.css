@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(5, 25, 37), rgb(105, 4, 21)) no-repeat;
+    font-family: sans-serif;
+}
+
+.logo-img {
+    height: 40px;   
+    padding: 10px;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.header .titulo {
+    color: white;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.container {
+    margin-left: -200px;
+    margin-top: -10px;
+}
+
+.container .cont-postres .postres-arriba .cont-arriba li {
+    font-size: 23px;
+    color: white;
+}
+
+.container .cont-postres .postres-arriba {
+    background: linear-gradient(rgb(5, 25, 37), rgb(105, 4, 21)) no-repeat;
+    border-radius: 10%;
+    width: 25%;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.89), -4px 0px 10px rgba(0, 0, 0, 0.89), -3px 0px 10px rgba(0, 0, 0, 0.89) ;
+    transition: all 0.5s ease;
+
+}
+
+.container .cont-postres .postres-arriba h2 {
+    padding-left: 40px;
+}
+
+.container .cont-postres .cont-arriba {
+    padding: 50px;
+    padding-top: 20px;
+}
+
+
+.container .cont-postres {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;  
+    align-content: center;
+}
+
+.container .cont-postres .cont-arriba li {
+    font-size: 20px;
+}
+
+.container  .cont-postres .postres-arriba:hover {
+    transform: translateY(-20px);
+}
+
+.head-arriba h2 {
+    color: white;
+    font-size: 33px;
+}
+
+
+.container .cont-postres .postres-abajo {
+    background: linear-gradient(rgb(5, 25, 37), rgb(105, 4, 21)) no-repeat;
+    border-radius: 10%;
+    width: 25%;
+    height: 794px;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.89), -4px 0px 10px rgba(0, 0, 0, 0.89), -3px 0px 10px rgba(0, 0, 0, 0.89) ;
+    transition: all 0.5s ease;
+}
+
+.container .cont-postres .postres-abajo h2 {
+    padding-left: 40px;
+}
+
+.container .cont-postres .postres-abajo .cont-abajo li {
+    font-size: 23px;
+}
+
+.container .cont-postres .cont-abajo {
+    padding: 50px;
+    padding-top: 90px;
+}
+
+
+.container .cont-postres .cont-abajo li {
+    font-size: 20px;
+    color: white;
+}
+
+.container  .cont-postres .postres-abajo:hover {
+    transform: translateY(-20px);
+}
+
+
+
+
